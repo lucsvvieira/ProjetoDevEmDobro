@@ -24,8 +24,6 @@ main:after {
 
 .informacoes .logo {
     max-width: 350px;
-    filter: invert(1);
-    margin-bottom: 80px;
 }
 
 .informacoes .descricao {
@@ -35,13 +33,13 @@ main:after {
     line-height: 30px;
 }
 
-.botoes-carrossel {
+.botoes-carrosel {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.botoes-carrossel .botao {
+.botoes-carrosel .botao {
     background-color: #FFFFFF;
     width: 15px;
     height: 15px;
@@ -51,7 +49,7 @@ main:after {
     border-color: #FFFFFF;
 }
 
-.botoes-carrossel .botao.selecionado {
+.botoes-carrosel .botao.selecionado {
     background-color: #1d8346;
 }
 
@@ -82,7 +80,7 @@ main:after {
     transform: scale(1.2);
 }
 
-.carrossel {
+.carrosel {
     position: fixed;
     top: 0;
     left: 0;
@@ -90,7 +88,7 @@ main:after {
     z-index: -1;
 }
 
-.carrossel .imagem {
+.carrosel .imagem {
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -98,7 +96,7 @@ main:after {
     animation: mudarImagem 0.7s;
 }
 
-.carrossel .imagem.ativa {
+.carrosel .imagem.ativa {
     display: block;
 }
 
